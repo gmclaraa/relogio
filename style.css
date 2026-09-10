@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+;body{
+    margin: 0;
+    padding: 0;
+    background-color: #aaa;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.relogio{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.display{
+ background-color: #2c2e43;
+ width: 300px;
+ height: 200px;
+ text-align:  center;
+ line-height: 200px;
+ border-radius: 10px;
+ color: white;
+ font-size: 7rem;
+ font-family: 'Qahiri',sans-serif;
+}
+
+footer{
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #333;
+    font-family: 'Barlow Condensed', sans-serif;
+}
